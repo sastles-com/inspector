@@ -1,0 +1,1606 @@
+{
+  "created_at": "2026-02-25T10:25:01",
+  "session_dir": "captured_images/20260225_102501",
+  "mode": "capture",
+  "capture_delay_sec": 1.0,
+  "led_color_rgb": [
+    32,
+    32,
+    32
+  ],
+  "led_count": 32,
+  "led_config": {
+    "LED_COUNT": 32,
+    "LED_PIN": 18,
+    "LED_FREQ_HZ": 800000,
+    "LED_DMA": 10,
+    "LED_BRIGHTNESS": 255,
+    "LED_INVERT": false,
+    "LED_CHANNEL": 0,
+    "LED_BACKEND": "auto"
+  },
+  "camera_config": {
+    "CAMERA_BACKEND": "picamera2",
+    "CAMERA_COMMAND": "rpicam-still",
+    "CAMERA_TIMEOUT_MS": 0,
+    "CAMERA_NO_PREVIEW": true,
+    "CAMERA_EXTRA_ARGS": [
+      "--autofocus-mode",
+      "auto"
+    ],
+    "CAMERA_AF_MODE": "auto_once",
+    "CAMERA_LENS_POSITION": 6.33,
+    "CAMERA_STARTUP_WARMUP_SEC": 0.2,
+    "CAMERA_USE_FIXED_CONTROLS": true,
+    "CAMERA_FIXED_COLOUR_GAINS": [
+      1.31,
+      0.96
+    ],
+    "CAMERA_FIXED_EXPOSURE_TIME_US": 66642,
+    "CAMERA_FIXED_ANALOGUE_GAIN": 16.0,
+    "CAMERA_FIXED_AWB_ENABLE": false,
+    "CAMERA_FIXED_AE_ENABLE": false,
+    "IMAGE_RESOLUTION": [
+      1920,
+      1080
+    ],
+    "IMAGE_FORMAT": "jpg"
+  },
+  "camera_runtime": {
+    "backend": "picamera2",
+    "af_mode": "auto_once",
+    "timeout_ms": 0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "image_format": "jpg",
+    "use_fixed_controls": true,
+    "fixed_colour_gains": [
+      1.31,
+      0.96
+    ],
+    "fixed_exposure_time_us": 66642,
+    "fixed_analogue_gain": 16.0,
+    "fixed_awb_enable": false,
+    "fixed_ae_enable": false
+  },
+  "captures": [
+    {
+      "index": 1,
+      "filename": "led_001.jpg",
+      "path": "captured_images/20260225_102501/led_001.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2492753888000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982718153321216,
+        "AfPauseState": 0,
+        "ExposureTime": 66642,
+        "FocusFoM": 17363,
+        "DigitalGain": 1.0019922256469727,
+        "SensorTemperature": 61.0,
+        "FrameDuration": 67297,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 2,
+        "ColourTemperature": 2440,
+        "Lux": 47.20289611816406,
+        "ColourGains": [
+          1.191811203956604,
+          4.527288436889648
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 4.266666889190674,
+        "ColourCorrectionMatrix": [
+          1.7214878797531128,
+          -0.46079355478286743,
+          -0.26070430874824524,
+          -0.3001042306423187,
+          1.5704208612442017,
+          -0.27031660079956055,
+          0.150499626994133,
+          -1.1309722661972046,
+          1.9804826974868774
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "filename": "led_002.jpg",
+      "path": "captured_images/20260225_102501/led_002.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2493897437000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982719296870144,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 12648,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 62.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 43.31493377685547,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "filename": "led_003.jpg",
+      "path": "captured_images/20260225_102501/led_003.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2494973569000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982720373002240,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 14242,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 62.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 36.51744079589844,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "filename": "led_004.jpg",
+      "path": "captured_images/20260225_102501/led_004.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2496049700000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982721449133312,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 16916,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 62.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 39.125831604003906,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "filename": "led_005.jpg",
+      "path": "captured_images/20260225_102501/led_005.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2497125833000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982722525266176,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 25927,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 63.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 36.835113525390625,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "filename": "led_006.jpg",
+      "path": "captured_images/20260225_102501/led_006.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2498201966000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982723601399296,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 29145,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 63.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 30.498023986816406,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "filename": "led_007.jpg",
+      "path": "captured_images/20260225_102501/led_007.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2499345356000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982724744789248,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 28758,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 63.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 30.489925384521484,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "filename": "led_008.jpg",
+      "path": "captured_images/20260225_102501/led_008.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2500421488000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982725820921344,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 28448,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 63.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 31.124862670898438,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "filename": "led_009.jpg",
+      "path": "captured_images/20260225_102501/led_009.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2501497624000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982726897057280,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 24141,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 64.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 30.358503341674805,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "filename": "led_010.jpg",
+      "path": "captured_images/20260225_102501/led_010.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2502573752000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982727973185280,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 16204,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 64.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 31.328943252563477,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "filename": "led_011.jpg",
+      "path": "captured_images/20260225_102501/led_011.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2503649884000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982729049317376,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 17068,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 64.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 31.40280532836914,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "filename": "led_012.jpg",
+      "path": "captured_images/20260225_102501/led_012.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2504726020000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982730125453312,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 16570,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 64.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 31.532054901123047,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "filename": "led_013.jpg",
+      "path": "captured_images/20260225_102501/led_013.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2505802148000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982731201581312,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 25296,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 65.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 29.62063217163086,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "filename": "led_014.jpg",
+      "path": "captured_images/20260225_102501/led_014.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2506878279000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982732277712384,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 22516,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 65.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 24.789230346679688,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "filename": "led_015.jpg",
+      "path": "captured_images/20260225_102501/led_015.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2507954415000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982733353848320,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 17821,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 65.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 22.673446655273438,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "filename": "led_016.jpg",
+      "path": "captured_images/20260225_102501/led_016.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2509030550000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982734429983232,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 22462,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 65.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 26.116851806640625,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "filename": "led_017.jpg",
+      "path": "captured_images/20260225_102501/led_017.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2510173935000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982735573368320,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 21039,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 65.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 26.166181564331055,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "filename": "led_018.jpg",
+      "path": "captured_images/20260225_102501/led_018.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2511250067000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982736649500160,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 17632,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 65.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 26.763416290283203,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "filename": "led_019.jpg",
+      "path": "captured_images/20260225_102501/led_019.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2512326200000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982737725633280,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 23663,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 66.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 25.58285140991211,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "filename": "led_020.jpg",
+      "path": "captured_images/20260225_102501/led_020.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2513402332000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982738801765376,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 18438,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 66.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 24.823070526123047,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "filename": "led_021.jpg",
+      "path": "captured_images/20260225_102501/led_021.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2514478467000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982739877900288,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 21611,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 67.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 24.52986717224121,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 22,
+      "filename": "led_022.jpg",
+      "path": "captured_images/20260225_102501/led_022.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2515621854000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982741021287168,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 15771,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 67.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 21.527353286743164,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 23,
+      "filename": "led_023.jpg",
+      "path": "captured_images/20260225_102501/led_023.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2516697987000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982742097420288,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 11450,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 67.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 17.76290512084961,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 24,
+      "filename": "led_024.jpg",
+      "path": "captured_images/20260225_102501/led_024.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2517774120000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982743173553152,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 13265,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 67.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 19.50947380065918,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "filename": "led_025.jpg",
+      "path": "captured_images/20260225_102501/led_025.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2518850253000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982744249686272,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 15338,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 67.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 26.361894607543945,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 26,
+      "filename": "led_026.jpg",
+      "path": "captured_images/20260225_102501/led_026.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2519926389000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982745325822208,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 16631,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 67.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 29.910552978515625,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 27,
+      "filename": "led_027.jpg",
+      "path": "captured_images/20260225_102501/led_027.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2521069780000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982746469213184,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 23295,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 68.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 24.097026824951172,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 28,
+      "filename": "led_028.jpg",
+      "path": "captured_images/20260225_102501/led_028.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2522213168000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982747612601344,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 16177,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 68.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 29.485214233398438,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 29,
+      "filename": "led_029.jpg",
+      "path": "captured_images/20260225_102501/led_029.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2523356557000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982748755990272,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 16124,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 68.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 27.737924575805664,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 30,
+      "filename": "led_030.jpg",
+      "path": "captured_images/20260225_102501/led_030.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2524432690000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982749832123136,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 8400,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 68.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 16.576099395751953,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 31,
+      "filename": "led_031.jpg",
+      "path": "captured_images/20260225_102501/led_031.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2525508824000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982750908257280,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 6436,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 68.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 12.422032356262207,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    },
+    {
+      "index": 32,
+      "filename": "led_032.jpg",
+      "path": "captured_images/20260225_102501/led_032.jpg",
+      "camera_metadata": {
+        "SensorTimestamp": 2526584955000,
+        "ScalerCrop": [
+          0,
+          0,
+          4608,
+          2592
+        ],
+        "FrameWallClock": 1771982751984388352,
+        "AfPauseState": 0,
+        "ExposureTime": 66616,
+        "FocusFoM": 8914,
+        "DigitalGain": 1.0001862049102783,
+        "SensorTemperature": 68.0,
+        "FrameDuration": 67270,
+        "LensPosition": 10.127620697021484,
+        "AfState": 2,
+        "AeState": 0,
+        "ColourTemperature": 5137,
+        "Lux": 17.949390411376953,
+        "ColourGains": [
+          1.309999942779541,
+          0.9599999785423279
+        ],
+        "SensorBlackLevels": [
+          4096,
+          4096,
+          4096,
+          4096
+        ],
+        "AnalogueGain": 16.0,
+        "ColourCorrectionMatrix": [
+          1.5451420545578003,
+          -0.3799982964992523,
+          -0.165139839053154,
+          -0.27866965532302856,
+          1.6414681673049927,
+          -0.3627924621105194,
+          -0.0015801561530679464,
+          -0.5056123733520508,
+          1.5072025060653687
+        ]
+      }
+    }
+  ]
+}

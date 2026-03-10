@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Data & Results (必要に応じて変更)
+# data/ # 実データが重い場合はコメントアウトを外してください
+tests/real_image_kizki_result.png
+tests/kizki_process.gif
+tests/test_output_popout.png
+tests/test_input_original.png
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
