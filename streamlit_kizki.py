@@ -6,8 +6,10 @@ import os
 import sys
 
 # src ディレクトリをパスに追加して KizkiDetector をインポート可能にする
-sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
-from kizki_detector import KizkiDetector
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.append(current_dir)
+from src.kizki_detector import KizkiDetector
 
 st.set_page_config(page_title="Multi-Scale KIZKI Inspector", layout="wide")
 
