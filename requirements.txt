@@ -1,3 +1,9 @@
-numpy
-pandas
-opencv-python
+streamlit>=1.19.0
+opencv-python-headless>=4.13.0.92
+numpy>=2.4.3
+pandas>=3.0.1
+pillow>=12.1.1
+matplotlib>=3.10.8
+plotly>=6.6.0
+scipy>=1.17.1
+altair<5
