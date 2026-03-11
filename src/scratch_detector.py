@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-class KizkiDetector:
+class ScratchDetector:
     """
-    「傷の気付きアルゴリズム (KIZKI)」の実装クラス。
+    傷のポップアウト検出アルゴリズムの実装クラス。
     人間の視覚生理機構（周辺視・固視微動）をモデル化し、
     低解像度化と位相シフトによる統合を行うことで、背景から傷をポップアウト（浮き彫り）させる。
     
@@ -11,20 +11,28 @@ class KizkiDetector:
     様々なスケールの傷（細い傷〜太い傷）を同時に検出する。
     """
 
-    def __init__(self, block_sizes=[16], pre_blur_sigma=1.2):
+    def __init__(self, block_sizes=None, pre_blur_sigma=1.2, block_size=None):
         """
         :param block_sizes: 格子（ブロック）のサイズのリスト。例: [8, 16, 32]
+        :param block_size: 単一のブロックサイズ (block_sizes の互換)
         :param pre_blur_sigma: 高周波ノイズ抑制のための前段Gaussianぼかしのsigma。
         """
-        if isinstance(block_sizes, int):
-            self.block_sizes = [block_sizes]
+        if block_size is not None:
+            resolved_block_sizes = block_size
+        elif block_sizes is None:
+            resolved_block_sizes = [16]
         else:
-            self.block_sizes = block_sizes
+            resolved_block_sizes = block_sizes
+
+        if isinstance(resolved_block_sizes, int):
+            self.block_sizes = [resolved_block_sizes]
+        else:
+            self.block_sizes = resolved_block_sizes
         self.pre_blur_sigma = pre_blur_sigma
 
     def process(self, image):
         """
-        入力画像に対して多重解像度KIZKIアルゴリズムを適用し、ポップアウト画像を返す。
+        入力画像に対して多重解像度アルゴリズムを適用し、ポップアウト画像を返す。
         :param image: 入力画像 (グレースケール推奨)
         :return: ポップアウト画像 (np.uint8)
         """
@@ -87,7 +95,7 @@ if __name__ == "__main__":
         img = cv2.imread(sys.argv[1])
         if img is not None:
             # 複数スケールで実行
-            detector = KizkiDetector(block_sizes=[8, 16, 32])
+            detector = ScratchDetector(block_sizes=[8, 16, 32])
             res = detector.process(img)
-            cv2.imwrite("kizki_multi_result.png", res)
-            print("Saved multi-scale result to kizki_multi_result.png")
+            cv2.imwrite("scratch_multi_result.png", res)
+            print("Saved multi-scale result to scratch_multi_result.png")

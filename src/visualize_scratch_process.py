@@ -6,7 +6,7 @@ import sys
 
 # src ディレクトリをパスに追加
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.kizki_detector import KizkiDetector
+from src.scratch_detector import ScratchDetector
 
 def create_synthetic_scratch_image(width=256, height=256, scratch_intensity=60):
     img = np.random.normal(100, 15, (height, width)).astype(np.uint8)
@@ -15,7 +15,7 @@ def create_synthetic_scratch_image(width=256, height=256, scratch_intensity=60):
     cv2.line(img, start_point, end_point, 160, 1)
     return img
 
-def generate_kizki_animation(output_path="tests/kizki_process.gif"):
+def generate_scratch_animation(output_path="tests/scratch_process.gif"):
     img = create_synthetic_scratch_image()
     height, width = img.shape
     bs = 16
@@ -65,4 +65,4 @@ def generate_kizki_animation(output_path="tests/kizki_process.gif"):
     print(f"Animation saved to {output_path}")
 
 if __name__ == "__main__":
-    generate_kizki_animation()
+    generate_scratch_animation()

@@ -5,17 +5,17 @@ from PIL import Image
 import os
 import sys
 
-# src ディレクトリをパスに追加して KizkiDetector をインポート可能にする
+# src ディレクトリをパスに追加して ScratchDetector をインポート可能にする
 current_dir = os.path.dirname(os.path.abspath(__file__))
 if current_dir not in sys.path:
     sys.path.append(current_dir)
-from src.kizki_detector import KizkiDetector
+from src.scratch_detector import ScratchDetector
 
-st.set_page_config(page_title="Multi-Scale KIZKI Inspector", layout="wide")
+st.set_page_config(page_title="Multi-Scale Scratch Inspector", layout="wide")
 
-st.title("🔍 Multi-Scale KIZKI Scratch Inspector")
+st.title("🔍 Multi-Scale Scratch Inspector")
 st.markdown("""
-人間の視覚生理機構をモデル化した KIZKI アルゴリズムの多重解像度版です。
+人間の視覚生理機構をモデル化した多重解像度アルゴリズムです。
 複数のブロックサイズを統合することで、微細な傷から大きなムラまで同時に浮き彫りにします。
 """)
 
@@ -67,8 +67,8 @@ if input_image is not None:
         st.subheader(f"Processing: {image_name}")
         
         # 処理の実行
-        with st.spinner(f"Applying Multi-Scale KIZKI {selected_block_sizes}..."):
-            detector = KizkiDetector(block_sizes=selected_block_sizes, pre_blur_sigma=sigma)
+        with st.spinner(f"Applying Multi-Scale Scratch {selected_block_sizes}..."):
+            detector = ScratchDetector(block_sizes=selected_block_sizes, pre_blur_sigma=sigma)
             raw_pop_out = detector.process(input_image)
             
             # 閾値処理の適用

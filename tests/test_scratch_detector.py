@@ -6,7 +6,7 @@ import sys
 
 # src ディレクトリをパスに追加
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.kizki_detector import KizkiDetector
+from src.scratch_detector import ScratchDetector
 
 def create_synthetic_scratch_image(width=256, height=256, scratch_intensity=60):
     """
@@ -24,13 +24,13 @@ def create_synthetic_scratch_image(width=256, height=256, scratch_intensity=60):
     
     return img, (start_point, end_point)
 
-def test_kizki_detection_logic():
+def test_scratch_detection_logic():
     # 1. 合成画像の作成
     img, (start, end) = create_synthetic_scratch_image()
     cv2.imwrite("tests/test_input_original.png", img)
     
     # 2. 検出器の初期化と適用 (新しい累積方式)
-    detector = KizkiDetector(block_size=16, pre_blur_sigma=1.2)
+    detector = ScratchDetector(block_size=16, pre_blur_sigma=1.2)
     pop_out = detector.process(img)
     cv2.imwrite("tests/test_output_popout.png", pop_out)
     
@@ -44,7 +44,7 @@ def test_kizki_detection_logic():
 if __name__ == "__main__":
     # 簡易的な動作確認用
     img, _ = create_synthetic_scratch_image()
-    detector = KizkiDetector(block_size=16)
+    detector = ScratchDetector(block_size=16)
     res = detector.process(img)
     cv2.imwrite("tests/test_result_popout_new.png", res)
     print("Test finished. Check tests/test_result_popout_new.png")

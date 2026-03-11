@@ -1,1 +1,1 @@
-# KIZKI package initialization
+# Scratch detector package initialization
