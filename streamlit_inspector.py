@@ -86,7 +86,7 @@ if input_image is not None:
 
         with col1:
             st.write("### Original (Gray)")
-            st.image(gray_input, use_column_width=True)
+            st.image(gray_input, width=gray_input.shape[1])
             
         with col2:
             st.write(f"### Pop-out Heatmap (>{threshold})")
@@ -98,7 +98,7 @@ if input_image is not None:
             # 閾値以下の部分は真っ黒(0,0,0)にする
             heatmap_rgb[pop_out == 0] = [0, 0, 0]
             
-            st.image(heatmap_rgb, use_column_width=True)
+            st.image(heatmap_rgb, width=heatmap_rgb.shape[1])
 
         with st.expander("Details & Statistics"):
             st.write(f"Image Size: {input_image.shape[1]}x{input_image.shape[0]}")

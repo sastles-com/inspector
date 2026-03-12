@@ -204,7 +204,7 @@ path = save_path + 'images/crop/' + filename + '.JPG'
 # img = np.array(cv2.cvtColor(Image.open(path), cv2.COLOR_BGR2GRAY))
 bgr = cv2.imread(path)
 rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
-st.image(rgb, caption='original images : ' + filename, use_column_width = True)
+st.image(rgb, caption='original images : ' + filename, width=rgb.shape[1])
 
 
 
@@ -243,7 +243,7 @@ plt.yticks([])
 
 # ax = plt.gca()
 # ax.set_facecolor('black')
-st.pyplot(fig, use_column_width=True)
+st.pyplot(fig, use_container_width=True)
 
 fig = plt.figure(facecolor="black")
 fig.patch.set_alpha(0.0)
@@ -263,7 +263,7 @@ plt.yticks([])
 
 # ax = plt.gca()
 # ax.set_facecolor('black')
-st.pyplot(fig, use_column_width=True)
+st.pyplot(fig, use_container_width=True)
 plt.clf()
 
 
@@ -326,7 +326,6 @@ plt.xticks(x)
 plt.yticks(histy)
 plt.legend()
 
-st.pyplot(fig, use_column_width=True)
-
+st.pyplot(fig, use_container_width=True)
 
 
